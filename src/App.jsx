@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./pages/Home";
 import Markets from "./pages/Markets";
+import About from "./pages/About";
 import Coin from "./pages/Coin";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/markets" element={<Markets />} />
         <Route path="/coin/:id" element={<Coin />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Footer />
     </BrowserRouter>
