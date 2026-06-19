@@ -7,10 +7,8 @@ import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
-      <CoinContextProvider>
-        <App />
-      </CoinContextProvider>
-    </BrowserRouter>
+    <CoinContextProvider>
+      <App />
+    </CoinContextProvider>
   </StrictMode>,
 );
