@@ -11,7 +11,7 @@ const Hero = () => {
         transition={{ ease: "easeInOut", duration: 0.8 }}
       >
         <div className="flex flex-col md:flex-row gap-10 py-5 items-center py-[2rem] ">
-          <div className="basis-1/2">
+          <div className="basis-1 md:basis-1/2">
             <h1 className="text-6xl font-bold text-white leading-18">
               Explore Crypto Markets in <br />
               Real Time

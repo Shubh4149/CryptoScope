@@ -28,7 +28,7 @@ const HowItWorks = () => {
   return (
     <>
       <div className="container">
-        <div className="grid grid-cols-2 gap-20 py-10 my-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 py-10 my-20">
           <div>
             <h2 className="text-6xl pb-[1rem]">How It Works</h2>
             <p className="text-xl pb-[2rem]">
